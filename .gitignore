@@ -1,0 +1,7 @@
+train/
+DRIVE/
+DRIVE_datasets_training_testing/
+*.pyc
+log.txt
+Fine_tuning_data
+
