@@ -112,13 +112,13 @@ For running the model for training and testing, make sure all the parameters in 
 
 Make finetuning=False under [training settings] inside the configuration.txt file
 
-Then run,
+Then run the following,
 ```
 python prepare_datasets_DRIVE.py
 ```
 This will will create the corresponding .hdf5 files for all the image sets which can be used for training
 
-Now run,
+Now run the following,
 ```
 python run_training.py
 ```
@@ -128,7 +128,7 @@ This will save the model weights in the particular folder with the [experiment n
 ### Fine-tuning
 
 Set the parameter **finetuning**  in the configuration.txt file to **True** for finetuning the model with the new dataset.
-Again run,
+Again run the following,
 
 ```
 python prepare_datasets_DRIVE.py
@@ -140,7 +140,7 @@ python run_training.py
 This will update the pre-trained weights with the fine tuning data.
 
 ### Testing
-Run
+Run the following
 ```
 python run_testing.py
 ```
